@@ -1,0 +1,19 @@
+	(1)	(2)
+VARIABLES	time_gap	time_gap
+		
+ln_l1_totl_fatl	-0.279***	-0.0107
+	(0.0121)	(0.0120)
+c.ln_l1_totl_fatl#c.ln_l1_totl_fatl	0.0382***	0.00571**
+	(0.00263)	(0.00256)
+date	-4.67e-05***	-7.35e-05***
+	(5.84e-07)	(5.15e-07)
+c.date#c.date		6.22e-09***
+		(5.08e-11)
+Constant	2.536***	1.566***
+	(0.0123)	(0.0154)
+		
+Observations	5,078	5,078
+Pseudo R-squared	0.115	0.295
+Log likelihood	-32045	-25522
+Standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		
